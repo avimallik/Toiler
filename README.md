@@ -10,12 +10,12 @@ Toiler is a Home Service finding Android Application. this application is very h
 8. Bangla and English Language Support <br>
 this project is already running at this moment. it has some little bit bug. i trying to solved it.
 
-<b>The Technology used in this project<b> <br>
+<b>The Technology used in this project</b> <br>
   
  Programming Language<br>
- Back-End : PHP (For REST API developement)<br>
- UI a Interraction : Java <br>
+ >>Back-End : PHP (For REST API developement)<br>
+ >>UI a Interraction : Java <br>
  
- <b>Tools<b> <br>
+ <b>Tools<b> </br>
  >> Android Studio <br>
  >> Visual Studio Code <br>
