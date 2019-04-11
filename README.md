@@ -2,14 +2,15 @@
 <a href = "https://doc-0s-6k-docs.googleusercontent.com/docs/securesc/vrk54hvpqbcno7gvpp3ehpp199r3jlbp/ntsgbr0d7b7s3f7dasvdjfcten0gujfe/1554998400000/07107457663795696194/08721465016122954619/1DMUg2tSipr7svBlGNcFeLN9pFP91Tpoo?e=download&nonce=aajrmj0ed16ei&user=08721465016122954619&hash=pm3332dhm0qpgcjj4q8326oodp7pfr72">Download Toiler</a>
 # Toiler
 Toiler is a Home Service finding Android Application. this application is very helpful for finding any home service in your nearby location. this application is fully dynamic. it reduce your time to finding proper home service in a proper time. this application has so many usefull features like <br>
-1. Fire Base Phone Authentication <br>
-2. Google Speech to Text support for finding the location
-3. The Location of Home Service Worker in Google Map <br>
-4. Call and Messaging facilities to the worker<br>
-5. Real time Update of worker, it gives you status is that worker busy or not at this moment<br>
-6. Easy Registration <br>
-7. Support diffrent Home Service worker like <b>Electrician, Automobile Mechanic, Carpenter, Hourse Painter, AC & Fridge Mechanic, Meson, Plumber, Locksmith, Ironsmith/Welding Service, Goldsmith, Mobile Repairer, Interior Designer, Photographer/Graphics Designer, Waste cleaner, TV Channel provider, Internet Service provider, Beautician, Cook, Umbrella Repairer, Housekepper, Babysitter, Truck Renter, Tailor, Cobbler, Purohit, Kazi, Door Technician, Decoration Material Suplier, Lighting Service</b> <br>
-8. Bangla and English Language Support <br>
+1. FireBase Phone Authentication <br>
+2. Full REST API Based online Application
+3. Google Speech to Text support for finding the location
+4. The Location of Home Service Worker in Google Map <br>
+5. Call and Messaging facilities to the worker<br>
+6. Real time Update of worker, it gives you status is that worker busy or not at this moment<br>
+7. Easy Registration <br>
+8. Support diffrent Home Service worker like <b>Electrician, Automobile Mechanic, Carpenter, Hourse Painter, AC & Fridge Mechanic, Meson, Plumber, Locksmith, Ironsmith/Welding Service, Goldsmith, Mobile Repairer, Interior Designer, Photographer/Graphics Designer, Waste cleaner, TV Channel provider, Internet Service provider, Beautician, Cook, Umbrella Repairer, Housekepper, Babysitter, Truck Renter, Tailor, Cobbler, Purohit, Kazi, Door Technician, Decoration Material Suplier, Lighting Service</b> <br>
+9. Bangla and English Language Support <br>
 this project is already running at this moment. it has some little bit bug. i trying to solved it.
 
 <b>The Technology used in this project</b> <br>
