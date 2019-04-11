@@ -2,7 +2,7 @@
 <a href = "https://doc-0s-6k-docs.googleusercontent.com/docs/securesc/vrk54hvpqbcno7gvpp3ehpp199r3jlbp/ntsgbr0d7b7s3f7dasvdjfcten0gujfe/1554998400000/07107457663795696194/08721465016122954619/1DMUg2tSipr7svBlGNcFeLN9pFP91Tpoo?e=download&nonce=aajrmj0ed16ei&user=08721465016122954619&hash=pm3332dhm0qpgcjj4q8326oodp7pfr72">Download Toiler</a>
 # Toiler
 Toiler is a Home Service finding Android Application. this application is very helpful for finding any home service in your nearby location. this application is fully dynamic. it reduce your time to finding proper home service in a proper time. this application has so many usefull features like <br>
-1. FireBase Phone Authentication <br>
+1. FireBase Phone Number Authentication <br>
 2. Full REST API Based online Application
 3. Google Speech to Text support for finding the location
 4. The Location of Home Service Worker in Google Map <br>
