@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_upper"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.toiler.enigmasystems.WorkerLogin"
+    tools:showIn="@layout/activity_worker_login">
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/login_ico_worker" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView22"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/worker_login_title"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/phoneNumberGet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView14"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#FAFAFA"
+            android:drawableLeft="@drawable/edittext_phone_drawable"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="@string/phone_string"
+            android:inputType="number"
+            android:paddingBottom="18dp"
+            android:paddingTop="15dp"
+            android:textColor="#FAFAFA"
+            android:textSize="18sp"
+            android:theme="@style/EditTextHint" />
+
+        <EditText
+            android:id="@+id/passwordGet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/phoneNumberGet"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="6dp"
+            android:backgroundTint="#FAFAFA"
+            android:drawableLeft="@drawable/edittext_password_drawable"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:fontFamily="serif-monospace"
+            android:hint="@string/worker_password_hint"
+            android:inputType="textPassword"
+            android:paddingBottom="18dp"
+            android:textColor="#FAFAFA"
+            android:textColorHint="#FAFAFA"
+            android:textSize="18sp"
+            android:theme="@style/EditTextHint" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordGet"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_shadow"
+            android:elevation="20dp"
+            android:text="@string/worker_login_button"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/worker_register_message"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/registerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView15"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#1a3e77"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/worker_register_string"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+</RelativeLayout>

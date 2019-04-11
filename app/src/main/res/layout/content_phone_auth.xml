@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_upper"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.toiler.enigmasystems.PhoneAuthActivity"
+    tools:showIn="@layout/activity_phone_auth">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="210dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/verificationNumberContainer"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/button_verify_phone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="150dp"
+            android:visibility="invisible"
+            app:cardBackgroundColor="#CB2428">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/field_verification_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@null"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:hint="Enter Code"
+                    android:inputType="textPersonName"
+                    android:textColor="#F6F6F6"
+                    android:textColorHint="#F6F6F6"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/button_verify_phone"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="39dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:background="@drawable/button_shape_two"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/verifiy_code_btn_str"
+            android:textAllCaps="false"
+            android:textColor="#FFF2ECEE"
+            android:textSize="15sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/phone_number_verification"
+            android:textColor="#FFF2ECEE"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout4">
+
+        <TextView
+            android:id="@+id/phoneNumberHighLighter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="2dp"
+            android:text="@string/phone_number_hint"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/phoneNumberContainer"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/phoneNumberHighLighter"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="7dp"
+            app:cardBackgroundColor="#CB2428">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/field_phone_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toEndOf="@+id/imageView"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:background="@null"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:hint="@string/phone_with_format_string"
+                    android:inputType="number"
+                    android:textColor="#F6F6F6"
+                    android:textColorHint="#F6F6F6" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    app:srcCompat="@drawable/login_phone_ico" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/button_start_verification"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape_two"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/send_code"
+            android:textAllCaps="false"
+            android:textColor="#FFF2ECEE"
+            android:textSize="17sp"
+            android:layout_below="@+id/phoneNumberContainer"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

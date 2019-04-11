@@ -1,0 +1,261 @@
+<resources>
+    <string name="app_name">Toiler</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_phone_auth">PhoneAuthActivity</string>
+    <string name="title_activity_panel">Toiler</string>
+    <string name="title_activity_intro_slider">Toiler</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_test_map">Map</string>
+    <string name="title_activity_worker_registration_easy">WorkerRegistrationEasy</string>
+    <string name="title_activity_account_chooser">AccountChooser</string>
+    <string name="title_activity_worker_map">Map</string>
+
+
+    //App Slogan
+    <string name="app_slogan">Toiler ব্যবহার করুন আর নিত্যদিন এর কাজ গুলো সহজে করুন </string>
+
+    //App extra slogan
+    <string name="app_slogan_ext">আপনার সেরা সঙ্গী Toiler</string>
+
+    //Add worker Btn
+    <string name="add_worker_btn">শ্রমিক যোগ করুন</string>
+    <string name="worker_filter_btn">শ্রমিক অনুসন্ধান</string>
+
+    //Eng, BD Btn
+    <string name="eng_btn">English</string>
+    <string name="bd_btn">বাংলা</string>
+
+    //About, Helpline
+    <string name="about_bt">সম্পর্কে</string>
+    <string name="helpline_bt">সাহায্য</string>
+
+    //Copyright
+    <string name="copyright_str">Copyright © 2018 Toiler</string>
+    <string name="title_activity_phone_authentication">PhoneAuthentication</string>
+
+    //Phone Number Verification
+    <string name="phone_number_verification">ফোন নাম্বার যাচাই</string>
+    //Phone number Verification BTN text
+    <string name="send_code">কোড পাঠান</string>
+
+    <string name="phone_number_hint">ফোন নাম্বার</string>
+
+    <string name="verifiy_code_btn_str">কোড যাচাই</string>
+
+    <string name="enter_code">কোড দেন</string>
+    <string name="title_activity_worker_registration">WorkerRegistration</string>
+
+    //Registration Form Fields title
+    <string name="dec_title">পদবি</string>
+    <string name="area_title">শহরের নাম</string>
+
+    //Registration Form Fields name
+    <string name="name_string">নাম</string>
+    <string name="phone_string">ফোন (০১XXXXXXXXX)</string>
+    <string name="phone_with_format_string">০১XXXXXXXXX</string>
+    <string name="phone_without_format_string">ফোন</string>
+    <string name="address_string">ঠিকানা</string>
+    <string name="area_string">এলাকার নাম</string>
+    <string name="password_string">পাসওয়ার্ড</string>
+    <string name="password_confirm_string">নিশ্চিত পাসওয়ার্ড</string>
+    <string name="designation_string">পদবি</string>
+    <string name="button_string">সাবমিট</string>
+    <string name="gender_string">লিঙ্গ</string>
+    <string name="post_code_string">পোস্ট কোড</string>
+    <string name="account_type">অ্যাকাউন্ট এর ধরন </string>
+    <string name="description_string">কাজের অভিজ্ঞতা সম্পর্কে</string>
+    <string name="experience_string">কাজের অভিজ্ঞতা</string>
+    <string name="new_password_msg">নতুন পাসওয়ার্ড দিন</string>
+    <string name="new_phone_msg">নতুন ফোন নাম্বার দিন</string>
+    <string name="title_activity_worker_grid">WorkerGrid</string>
+    <string name="image_select"></string>
+    <string name="progress_dialog_msg">আপনার অ্যাকাউন্ট তৈরি হচ্ছে, একটু অপেক্ষ করুন </string>
+    <string name="progress_dialog_msg_login">আপনার অ্যাকাউন্ট এ প্রবেশ করসে, একটু অপেক্ষ করুন</string>
+    <string name="progress_dialog_msg_update">আপনার অ্যাকাউন্ট হালনাগাদ হচ্ছে , একটু অপেক্ষ করুন</string>
+    <string name="progress_dialog_msg_delete">আপনার অ্যাকাউন্ট বাতিল হচ্ছে, একটু অপেক্ষ করুন</string>
+    <string name="progress_dialog_msg_update_phone">আপনার ফোন নাম্বার  হালনাগাদ হচ্ছে , একটু অপেক্ষ করুন</string>
+
+
+
+    //Worker Designation
+    <string name="electrician_string">ইলেক্ট্রিসিয়ান</string>
+    <string name="automobile_string">গাড়ি মেরামতকারি</string>
+    <string name="electronics_string">ইলেকট্রনিক্স মেরামতকারি</string>
+    <string name="carpenter_string">কাঠ মিস্ত্রি </string>
+    <string name="house_painter_string">গৃহ রঙ চিত্রকর</string>
+    <string name="fridge_string">এসি এবং ফ্রিজ মেরামতকারি</string>
+    <string name="plumber_string">প্লাম্বার</string>
+    <string name="meson_string">রাজ মিস্ত্রি</string>
+    <string name="none_string">None</string>
+
+    //New Designation
+    <string name="locksmith_string">তালা মেরামতকারি</string>
+    <string name="iron_smith_string">লোহার মিস্ত্রি/ঢালাই</string>
+    <string name="mobile_technician_string">মোবাইল সারাইকারি </string>
+    <string name="photo_grapher_string">ফটোগ্রাফার/গ্রাফিক্স ডিজাইনার</string>
+    <string name="waste_cleaner_string">ময়লা পরিষ্কার কর্মী/সুইপআর</string>
+    <string name="dish_provider_string">টিভি চ্যানেল প্রদানকারী</string>
+    <string name="isp_provider_string">ইন্টারনেট সেবা প্রদানকারী</string>
+    <string name="beautician_string">রূপচর্চা কর্মী </string>
+    <string name="cook_string">রাঁধুনি</string>
+    <string name="umbrella_repair_string">ছাতি মেরামতকারী</string>
+    <string name="baby_sitter_string">কাজের মেয়ে</string>
+    <string name="housekeeper_string">বাড়ি তদারক কর্মী</string>
+    <string name="house_shifter_string">ট্রাক ভাড়া কর্মী </string>
+    <string name="tailors_string">দরজী</string>
+    <string name="interior_designer_string">ইন্টেরিয়র ডিজাইনার</string>
+    <string name="door_technician_string">দরজা মেরামতকারী </string>
+    <string name="wedding_material_supplier_string">সাজসজ্জা সামগ্রী সরবরাহকারী </string>
+    <string name="kazi_string">কাজি</string>
+    <string name="purohit_string">পুরোহিত</string>
+    <string name="cobbler_string">মুচি</string>
+    <string name="gold_smith_string">স্বর্ণকার</string>
+    <string name="light_illumination_service_string">আলোকসজ্জা সেবা</string>
+
+    //Gender
+    <string name="none_gender_string">None</string>
+    <string name="male_string">পুরুষ</string>
+    <string name="female_string">মহিলা</string>
+    <string name="trans_other">তৃতীয় লিঙ্গ</string>
+
+
+    //Working Experience Type
+    <string name="working_exp_none_string">None</string>
+    <string name="working_exp_month_string">মাস</string>
+    <string name="working_exp_year_string">বছর</string>
+
+
+    <string name="title_activity_worker_profile">WorkerProfile</string>
+
+    //Worker Profile
+    <string name="worker_name_demo">Maxwell Houston</string>
+    <string name="worker_phone_demo">+8801827933335</string>
+    <string name="worker_profile_area">এলাকা</string>
+    <string name="worker_profile_city">সিটি</string>
+    <string name="worker_profile_address">ঠিকানা</string>
+
+
+    //Form Validation Error Messages
+    <string name="worker_name_error">শ্রমিকের নাম দিন !</string>
+    <string name="worker_address_error">শ্রমিকের ঠিকানা দিন !</string>
+    <string name="worker_phone_error">শ্রমিকের ফোন নাম্বার দিন !</string>
+    <string name="worker_area_error">শ্রমিকের এলাকার নাম দিন!</string>
+    <string name="worker_cityname_error">শ্রমিকের এলাকার সিটি এর নাম দিন </string>
+    <string name="worker_password_error">পাসওয়ার্ড মিলে নাই !</string>
+    <string name="worker_password_match_error">পাসওয়ার্ড মিলে নাই !</string>
+    <string name="worker_password_length_error">৬ দৈর্ঘ্যর পাসওয়ার্ড দিন !</string>
+    <string name="experience_range_error">আপনার অভিজ্ঞতা লিখুন !</string>
+    <string name="description_error">আপনার অভিজ্ঞতা শপরকের কিছু লিখুন !</string>
+    <string name="postcode_error">আপনার পোস্ট কোড দিন !</string>
+    <string name="phone_post_error">আপনার সঠিক ফোন নাম্বার এবং পোস্ট কোড দিন !</string>
+    <string name="post_code_error">আপনার সঠিক পোস্ট কোড দিন !</string>
+    <string name="image_select_error">আপনার একটি ছবি বাছাই করুন</string>
+    <string name="phone_number_dialog_error">আপনার সঠিক ফোন নাম্বার দিন !</string>
+
+    //Spinner error stuff
+    <string name="designation_spinner_error">আপনার পদবী বাছাই করুন</string>
+    <string name="gender_spinner_error">আপনার লিঙ্গ বাছাই করুন</string>
+    <string name="working_exp_spinner_error">আপনার কাজের অভিজ্ঞতা দিন</string>
+
+    //Worker List Titles
+    <string name="area_worker_list">এলাকা</string>
+    <string name="city_worker_list">সিটি</string>
+    <string name="title_activity_worker_search">WorkerSearch</string>
+
+    //Search Area Text
+    <string name="search_area_txt">এলাকা/পোস্ট কোড/সিটি সার্চ করুন</string>
+
+    //List View Error Data Load
+    <string name="list_view_error">আপনার ইন্টারনেট সংযোগ দরকার !</string>
+    <string name="network_status">আপনার ইন্টারনেট সংযোগ দরকার !</string>
+
+    //HTTP Error Respones
+    <string name = "duplicate_id_error">Duplicate ID Found, information not added to database !</string>
+
+    //Dialog Bar Components
+    <string name="confirm_txt">নিশ্চিতকরন</string>
+    <string name="internet_status">আপনার ইন্টারনেট সংযোগ দরকার ! হ্যাঁ এ প্রেস করে ইন্টারনেট সচল করুন</string>
+    <string name="yes_text_dialog">হ্যাঁ</string>
+    <string name="no_text_dialog">না</string>
+
+
+    <string name="title_activity_worker_login">WorkerLogin</string>
+    <string name="title_activity_login_profile">LoginProfile</string>
+
+    //Messages to worker
+    <string name="user_message">আপনাকে দরকার, Toiler থেকে </string>
+
+    //Worker Login
+    <string name="worker_login_title">শ্রমিক লগইন</string>
+    <string name="worker_phone_hint">ফোন নাম্বার</string>
+    <string name="worker_password_hint">পাসওয়ার্ড</string>
+    <string name="worker_login_button">লগইন</string>
+    <string name="worker_register_string">নিবন্ধন</string>
+    <string name="exit_string">ব্যাক বাটন এ ২ বার প্রেস করুন, বের হওয়ার জন্য</string>
+    <string name="worker_register_message">আপনার কি Toiler এ কোন  অ্যাকাউন্ট নাই, নিবন্ধন বাটন এ প্রেস করুন আর স্মার্টলি কাজ করুন</string>
+
+    //Worker Login Profile
+    <string name="worker_logout">প্রস্থান</string>
+    <string name="worker_welcome_message">স্বাগতম</string>
+
+    //Phone Number Validation
+    <string name="phone_validate_msg">আপনার সঠিক ফোন নাম্বার দিন !</string>
+    <string name="password_validate_msg">সঠিক পাসওয়ার্ড দিন !</string>
+
+    //Alert Button Text
+    <string name="dismiss_btn_text">ঠিক আছে</string>
+    <string name="cancel_btn_text">বাদ দিন</string>
+    <string name="yes_btn_text">হ্যাঁ</string>
+    <string name="no_btn_text">না</string>
+    <string name="message_btn_text">আপনি কি অ্যাকাউন্ট টী হালনাগাদ করতে চান ?</string>
+    <string name="message_btn_delete_text">আপনি কি আপনের অ্যাকাউন্ট টী ডিলিট করতে চান, আপনি পরে নিবন্ধন করতে পারবেন</string>
+
+
+    //Account Chooser
+    <string name="verified_account_chooser">খুলুন ভেরিফাইড অ্যাকাউন্ট</string>
+    <string name="easy_account_chooser">খুলুন সহজ অ্যাকাউন্ট</string>
+
+    <string name="verified_account_instruction"> <b>*</b>ভেরিফাইড অ্যাকাউন্ট খুলার জন্য আপনার ফোন নাম্বার লাগবে</string>
+    <string name="easy_account_instruction"><b>*</b>ইজি অ্যাকাউন্ট খুলার জন্য আপনার ফোন নাম্বার লাগবে না</string>
+
+    //Worker Map Marker Info
+    <string name="designation_map_info">পদবী : </string>
+    <string name="area_map_info">এলাকা : </string>
+    <string name="working_experience_map_info">কাজের অভিজ্ঞতা : </string>
+    <string name="city_map_info">সিটি : </string>
+
+    //For intro slider Test
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_welcome">Welcome to Toiler</string>
+
+
+    <string name="slide_1_title">Are You Worried !</string>
+    <string name="slide_1_desc">Not finding any worker, when you fix something Intensely for family needs</string>
+
+    <string name="slide_2_title">No Tension </string>
+    <string name="slide_2_desc">Toiler will help you to find many worker nearby in your area</string>
+
+    <string name="slide_3_title">Fell Free</string>
+    <string name="slide_3_desc">The goal of Toiler is, helps you to find proper worker in proper time</string>
+
+    <string name="slide_4_title">Technews</string>
+    <string name="slide_4_desc">Read the latest technology news and tech headlines on computer, apps, games, gadgets and other personal tech!</string>
+
+    <string name="main_screen_desc">There are two steps to see the Intro Screen slider.\n\n1. Goto Settings -> apps -> welcome slider -> clear data.\n2. Click the below Play Again button</string>
+    <string name="play_again">Play Again</string>
+
+    //About
+    <string name="comp_name">Enigma Systems</string>
+    <string name="developer_string">Application Developer</string>
+    <string name="maintainer_string">Application Maintainer</string>
+    <string name="comp_copyright">Toiler © Copyright of Enigma Systems</string>
+    <string name="comp_maintainer_name">Islam Md Farhan</string>
+    <string name="comp_dev_name">Arunav Mallik Avi (Arm Avi)</string>
+    <string name="comp_maintainer_social_link"></string>
+    <string name="comp_dev_social_link"></string>
+    <string name="comp_title">Toiler</string>
+
+</resources>

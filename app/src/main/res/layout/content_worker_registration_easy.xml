@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.toiler.enigmasystems.WorkerRegistrationEasy"
+    tools:showIn="@layout/activity_worker_registration_easy"
+    android:scrollbarStyle="outsideOverlay"
+    android:background="#DD2324">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+
+            android:id="@+id/clearFieldEasy"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imageChosser"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:padding="5dp"
+            app:srcCompat="@drawable/trashcan" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1050dp"
+            android:layout_marginTop="40dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                app:cardElevation="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="50dp">
+
+                    <Button
+
+                        android:id="@+id/insertDataBtnEasy"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/cardView13"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/buttonshape"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="@string/button_string"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp" />
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cardView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/cardView11"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Spinner
+
+                                android:id="@+id/work_experience_spinner_type_easy"
+                                android:layout_width="125dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentTop="true"
+                                android:gravity="right" />
+
+                            <EditText
+
+                                android:id="@+id/editExperienceEasy"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginRight="120dp"
+                                android:layout_toEndOf="@+id/imageView16"
+                                android:layout_toRightOf="@+id/imageView16"
+                                android:background="@null"
+                                android:ems="10"
+                                android:fontFamily="sans-serif-condensed"
+                                android:foregroundGravity="center"
+                                android:hint="@string/experience_string"
+                                android:inputType="phone" />
+
+                            <ImageView
+                                android:id="@+id/imageView16"
+                                android:layout_width="25dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginStart="15dp"
+                                app:srcCompat="@drawable/experience" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cardView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/cardView10"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/textView12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="11dp"
+                                android:layout_marginStart="11dp"
+                                android:layout_toEndOf="@+id/imageView15"
+                                android:layout_toRightOf="@+id/imageView15"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="@string/gender_string"
+                                android:textColor="#DD2324"
+                                android:textSize="17sp" />
+
+                            <Spinner
+
+                                android:id="@+id/genderSpinnerEasy"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="80dp"
+                                android:layout_toEndOf="@+id/textView12"
+                                android:gravity="right" />
+
+                            <ImageView
+                                android:id="@+id/imageView15"
+                                android:layout_width="30dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                app:srcCompat="@drawable/gender" />
+
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cardView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/cardView7"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <EditText
+
+                                android:id="@+id/ediPasswordEasyTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginRight="40dp"
+                                android:background="@null"
+                                android:ems="10"
+                                android:hint="@string/password_string"
+                                android:inputType="textPassword"
+                                android:paddingLeft="10dp" />
+
+                            <ImageView
+                                android:id="@+id/imageView19"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                app:srcCompat="@drawable/password_ico" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cardView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/cardView9"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <EditText
+
+                                android:id="@+id/ediPasswordConfirmEasyTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginRight="40dp"
+                                android:background="@null"
+                                android:ems="10"
+                                android:hint="@string/password_confirm_string"
+                                android:inputType="textPassword"
+                                android:paddingLeft="10dp" />
+
+                            <ImageView
+                                android:id="@+id/imageView20"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                app:srcCompat="@drawable/password_ico" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cardView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/cardView6"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <AutoCompleteTextView
+                                android:id="@+id/ediCityEasyTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginRight="40dp"
+                                android:background="@null"
+                                android:ems="10"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="left|center"
+                                android:hint="@string/area_title"
+                                android:inputType="textPersonName"
+                                android:paddingLeft="10dp" />
+
+                            <ImageView
+                                android:id="@+id/imageView13"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                app:srcCompat="@drawable/city_ico" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cardView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/cardView5"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/imageView17"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignLeft="@+id/imageView12"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignStart="@+id/imageView12"
+                                android:layout_marginBottom="13dp"
+                                app:srcCompat="@drawable/postcode" />
+
+                            <EditText
+
+                                android:id="@+id/editPostCodeEasy"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBottom="@+id/imageView17"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginRight="40dp"
+                                android:background="@null"
+                                android:ems="10"
+                                android:fontFamily="sans-serif-condensed"
+                                android:hint="@string/post_code_string"
+                                android:inputType="number"
+                                android:paddingLeft="10dp" />
+
+                            <EditText
+
+                                android:id="@+id/ediAreaEasyTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginRight="40dp"
+                                android:layout_marginTop="11dp"
+                                android:background="@null"
+                                android:ems="10"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="left|center"
+                                android:hint="@string/area_string"
+                                android:inputType="textPersonName"
+                                android:paddingLeft="10dp" />
+
+                            <ImageView
+                                android:id="@+id/imageView12"
+                                android:layout_width="20dp"
+                                android:layout_height="25dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignTop="@+id/ediAreaEasyTxt"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginStart="12dp"
+                                app:srcCompat="@drawable/area_ico" />
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cardView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/cardView4"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <EditText
+
+                                android:id="@+id/ediAddressEasyTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginRight="40dp"
+                                android:background="@null"
+                                android:ems="10"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="left|center"
+                                android:hint="@string/address_string"
+                                android:inputType="textPersonName"
+                                android:paddingLeft="10dp" />
+
+                            <ImageView
+                                android:id="@+id/imageView11"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                app:srcCompat="@drawable/address_ico" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cardView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/cardView3"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="13dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/textView16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="10dp"
+                                android:layout_toEndOf="@+id/imageView10"
+                                android:layout_toRightOf="@+id/imageView10"
+                                android:fontFamily="sans-serif-condensed"
+                                android:paddingLeft="10dp"
+                                android:text="@string/dec_title"
+                                android:textColor="#DD2324"
+                                android:textSize="17sp" />
+
+                            <Spinner
+
+                                android:id="@+id/designationEasySpinner"
+                                android:layout_width="170dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentTop="true"
+                                android:textAlignment="textEnd" />
+
+                            <ImageView
+                                android:id="@+id/imageView10"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                app:srcCompat="@drawable/designation_ico" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cardView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="46dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <EditText
+
+                                android:id="@+id/ediNameEasyTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginRight="40dp"
+                                android:background="@null"
+                                android:ems="10"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="left|center"
+                                android:hint="@string/name_string"
+                                android:inputType="textPersonName"
+                                android:paddingLeft="10dp" />
+
+                            <ImageView
+                                android:id="@+id/imageView8"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                app:srcCompat="@drawable/worker_ico" />
+
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cardView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_below="@+id/cardView2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <EditText
+
+                                android:id="@+id/ediPhoneEasyTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginRight="40dp"
+                                android:background="@null"
+                                android:ems="10"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="left|center"
+                                android:hint="@string/phone_string"
+                                android:inputType="number"
+                                android:paddingLeft="10dp" />
+
+                            <ImageView
+                                android:id="@+id/imageView9"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="15dp"
+                                app:srcCompat="@drawable/phone_ico" />
+
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cardView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/cardView12"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/imageView31"
+                                android:layout_width="20dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="15dp"
+                                app:srcCompat="@drawable/details" />
+
+                            <EditText
+
+                                android:id="@+id/ediDescriptionEasy"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginRight="20dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_toEndOf="@+id/imageView31"
+                                android:layout_toRightOf="@+id/imageView31"
+                                android:background="@null"
+                                android:ems="10"
+                                android:fontFamily="sans-serif-condensed"
+                                android:foregroundGravity="top"
+                                android:hint="@string/description_string"
+                                android:inputType="textMultiLine"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="20dp" />
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <TextView
+
+                        android:id="@+id/easyAccStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/cardView2"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignRight="@+id/cardView2"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginTop="13dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Easy"
+                        android:textColor="#DD2324"
+                        android:textSize="15sp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageChosser"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/workerreg"
+            app:srcCompat="@drawable/workerreg" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageChosser"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/image_select" />
+    </RelativeLayout>
+</ScrollView>
